@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1DADE4F024E4D32452C3E3C176B5C312F3D37687",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2D89CB0BBC796480D1921C257D67F191A929F7E8" : 9223372036854775807,
+    "1DADE4F024E4D32452C3E3C176B5C312F3D37687" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6AE3A813-1441-4B6E-9015-8FE9F6C169B3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2D89CB0BBC796480D1921C257D67F191A929F7E8" : "",
+    "1DADE4F024E4D32452C3E3C176B5C312F3D37687" : "LLMapNaviManager\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LLMapNaviTool",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LLMapNaviTool\/LLMapNaviTool.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lilongcnc\/LLMapNaviManager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DADE4F024E4D32452C3E3C176B5C312F3D37687"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/weidongfei\/Test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D89CB0BBC796480D1921C257D67F191A929F7E8"
+    }
+  ]
+}
