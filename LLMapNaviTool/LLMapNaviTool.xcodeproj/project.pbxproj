@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899794101E973B4F00B2B99D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8997940F1E973B4F00B2B99D /* main.m */; };
+		899794131E973B4F00B2B99D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 899794121E973B4F00B2B99D /* AppDelegate.m */; };
+		899794161E973B4F00B2B99D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899794151E973B4F00B2B99D /* ViewController.m */; };
+		899794191E973B4F00B2B99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899794171E973B4F00B2B99D /* Main.storyboard */; };
+		8997941B1E973B4F00B2B99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8997941A1E973B4F00B2B99D /* Assets.xcassets */; };
+		8997941E1E973B4F00B2B99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8997941C1E973B4F00B2B99D /* LaunchScreen.storyboard */; };
+		899794291E973B4F00B2B99D /* LLMapNaviToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899794281E973B4F00B2B99D /* LLMapNaviToolTests.m */; };
+		899794341E973B4F00B2B99D /* LLMapNaviToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899794331E973B4F00B2B99D /* LLMapNaviToolUITests.m */; };
+		899794431E973B5F00B2B99D /* LLMapNaviTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 899794421E973B5F00B2B99D /* LLMapNaviTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		899794251E973B4F00B2B99D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899794031E973B4F00B2B99D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8997940A1E973B4F00B2B99D;
+			remoteInfo = LLMapNaviTool;
+		};
+		899794301E973B4F00B2B99D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899794031E973B4F00B2B99D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8997940A1E973B4F00B2B99D;
+			remoteInfo = LLMapNaviTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8997940B1E973B4F00B2B99D /* LLMapNaviTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLMapNaviTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8997940F1E973B4F00B2B99D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		899794111E973B4F00B2B99D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		899794121E973B4F00B2B99D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		899794141E973B4F00B2B99D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		899794151E973B4F00B2B99D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		899794181E973B4F00B2B99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8997941A1E973B4F00B2B99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8997941D1E973B4F00B2B99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8997941F1E973B4F00B2B99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899794241E973B4F00B2B99D /* LLMapNaviToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLMapNaviToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899794281E973B4F00B2B99D /* LLMapNaviToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMapNaviToolTests.m; sourceTree = "<group>"; };
+		8997942A1E973B4F00B2B99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8997942F1E973B4F00B2B99D /* LLMapNaviToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLMapNaviToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899794331E973B4F00B2B99D /* LLMapNaviToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMapNaviToolUITests.m; sourceTree = "<group>"; };
+		899794351E973B4F00B2B99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899794411E973B5F00B2B99D /* LLMapNaviTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMapNaviTool.h; sourceTree = "<group>"; };
+		899794421E973B5F00B2B99D /* LLMapNaviTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMapNaviTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		899794081E973B4F00B2B99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899794211E973B4F00B2B99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8997942C1E973B4F00B2B99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		899794021E973B4F00B2B99D = {
+			isa = PBXGroup;
+			children = (
+				8997940D1E973B4F00B2B99D /* LLMapNaviTool */,
+				899794271E973B4F00B2B99D /* LLMapNaviToolTests */,
+				899794321E973B4F00B2B99D /* LLMapNaviToolUITests */,
+				8997940C1E973B4F00B2B99D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8997940C1E973B4F00B2B99D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8997940B1E973B4F00B2B99D /* LLMapNaviTool.app */,
+				899794241E973B4F00B2B99D /* LLMapNaviToolTests.xctest */,
+				8997942F1E973B4F00B2B99D /* LLMapNaviToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8997940D1E973B4F00B2B99D /* LLMapNaviTool */ = {
+			isa = PBXGroup;
+			children = (
+				899794411E973B5F00B2B99D /* LLMapNaviTool.h */,
+				899794421E973B5F00B2B99D /* LLMapNaviTool.m */,
+				899794111E973B4F00B2B99D /* AppDelegate.h */,
+				899794121E973B4F00B2B99D /* AppDelegate.m */,
+				899794141E973B4F00B2B99D /* ViewController.h */,
+				899794151E973B4F00B2B99D /* ViewController.m */,
+				899794171E973B4F00B2B99D /* Main.storyboard */,
+				8997941A1E973B4F00B2B99D /* Assets.xcassets */,
+				8997941C1E973B4F00B2B99D /* LaunchScreen.storyboard */,
+				8997941F1E973B4F00B2B99D /* Info.plist */,
+				8997940E1E973B4F00B2B99D /* Supporting Files */,
+			);
+			path = LLMapNaviTool;
+			sourceTree = "<group>";
+		};
+		8997940E1E973B4F00B2B99D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8997940F1E973B4F00B2B99D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		899794271E973B4F00B2B99D /* LLMapNaviToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				899794281E973B4F00B2B99D /* LLMapNaviToolTests.m */,
+				8997942A1E973B4F00B2B99D /* Info.plist */,
+			);
+			path = LLMapNaviToolTests;
+			sourceTree = "<group>";
+		};
+		899794321E973B4F00B2B99D /* LLMapNaviToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				899794331E973B4F00B2B99D /* LLMapNaviToolUITests.m */,
+				899794351E973B4F00B2B99D /* Info.plist */,
+			);
+			path = LLMapNaviToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8997940A1E973B4F00B2B99D /* LLMapNaviTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899794381E973B4F00B2B99D /* Build configuration list for PBXNativeTarget "LLMapNaviTool" */;
+			buildPhases = (
+				899794071E973B4F00B2B99D /* Sources */,
+				899794081E973B4F00B2B99D /* Frameworks */,
+				899794091E973B4F00B2B99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLMapNaviTool;
+			productName = LLMapNaviTool;
+			productReference = 8997940B1E973B4F00B2B99D /* LLMapNaviTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		899794231E973B4F00B2B99D /* LLMapNaviToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8997943B1E973B4F00B2B99D /* Build configuration list for PBXNativeTarget "LLMapNaviToolTests" */;
+			buildPhases = (
+				899794201E973B4F00B2B99D /* Sources */,
+				899794211E973B4F00B2B99D /* Frameworks */,
+				899794221E973B4F00B2B99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899794261E973B4F00B2B99D /* PBXTargetDependency */,
+			);
+			name = LLMapNaviToolTests;
+			productName = LLMapNaviToolTests;
+			productReference = 899794241E973B4F00B2B99D /* LLMapNaviToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8997942E1E973B4F00B2B99D /* LLMapNaviToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8997943E1E973B4F00B2B99D /* Build configuration list for PBXNativeTarget "LLMapNaviToolUITests" */;
+			buildPhases = (
+				8997942B1E973B4F00B2B99D /* Sources */,
+				8997942C1E973B4F00B2B99D /* Frameworks */,
+				8997942D1E973B4F00B2B99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899794311E973B4F00B2B99D /* PBXTargetDependency */,
+			);
+			name = LLMapNaviToolUITests;
+			productName = LLMapNaviToolUITests;
+			productReference = 8997942F1E973B4F00B2B99D /* LLMapNaviToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		899794031E973B4F00B2B99D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李龙";
+				TargetAttributes = {
+					8997940A1E973B4F00B2B99D = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ZHR3SCPQ6E;
+						ProvisioningStyle = Automatic;
+					};
+					899794231E973B4F00B2B99D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8997940A1E973B4F00B2B99D;
+					};
+					8997942E1E973B4F00B2B99D = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8997940A1E973B4F00B2B99D;
+					};
+				};
+			};
+			buildConfigurationList = 899794061E973B4F00B2B99D /* Build configuration list for PBXProject "LLMapNaviTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 899794021E973B4F00B2B99D;
+			productRefGroup = 8997940C1E973B4F00B2B99D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8997940A1E973B4F00B2B99D /* LLMapNaviTool */,
+				899794231E973B4F00B2B99D /* LLMapNaviToolTests */,
+				8997942E1E973B4F00B2B99D /* LLMapNaviToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899794091E973B4F00B2B99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8997941E1E973B4F00B2B99D /* LaunchScreen.storyboard in Resources */,
+				8997941B1E973B4F00B2B99D /* Assets.xcassets in Resources */,
+				899794191E973B4F00B2B99D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899794221E973B4F00B2B99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8997942D1E973B4F00B2B99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		899794071E973B4F00B2B99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899794431E973B5F00B2B99D /* LLMapNaviTool.m in Sources */,
+				899794161E973B4F00B2B99D /* ViewController.m in Sources */,
+				899794131E973B4F00B2B99D /* AppDelegate.m in Sources */,
+				899794101E973B4F00B2B99D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899794201E973B4F00B2B99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899794291E973B4F00B2B99D /* LLMapNaviToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8997942B1E973B4F00B2B99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899794341E973B4F00B2B99D /* LLMapNaviToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		899794261E973B4F00B2B99D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8997940A1E973B4F00B2B99D /* LLMapNaviTool */;
+			targetProxy = 899794251E973B4F00B2B99D /* PBXContainerItemProxy */;
+		};
+		899794311E973B4F00B2B99D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8997940A1E973B4F00B2B99D /* LLMapNaviTool */;
+			targetProxy = 899794301E973B4F00B2B99D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		899794171E973B4F00B2B99D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				899794181E973B4F00B2B99D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8997941C1E973B4F00B2B99D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8997941D1E973B4F00B2B99D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		899794361E973B4F00B2B99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		899794371E973B4F00B2B99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		899794391E973B4F00B2B99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHR3SCPQ6E;
+				INFOPLIST_FILE = LLMapNaviTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.LLMapNaviTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8997943A1E973B4F00B2B99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZHR3SCPQ6E;
+				INFOPLIST_FILE = LLMapNaviTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.LLMapNaviTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8997943C1E973B4F00B2B99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLMapNaviToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.LLMapNaviToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLMapNaviTool.app/LLMapNaviTool";
+			};
+			name = Debug;
+		};
+		8997943D1E973B4F00B2B99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLMapNaviToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.LLMapNaviToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLMapNaviTool.app/LLMapNaviTool";
+			};
+			name = Release;
+		};
+		8997943F1E973B4F00B2B99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLMapNaviToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.LLMapNaviToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLMapNaviTool;
+			};
+			name = Debug;
+		};
+		899794401E973B4F00B2B99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLMapNaviToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoyunkeji.LLMapNaviToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLMapNaviTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		899794061E973B4F00B2B99D /* Build configuration list for PBXProject "LLMapNaviTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899794361E973B4F00B2B99D /* Debug */,
+				899794371E973B4F00B2B99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899794381E973B4F00B2B99D /* Build configuration list for PBXNativeTarget "LLMapNaviTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899794391E973B4F00B2B99D /* Debug */,
+				8997943A1E973B4F00B2B99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8997943B1E973B4F00B2B99D /* Build configuration list for PBXNativeTarget "LLMapNaviToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8997943C1E973B4F00B2B99D /* Debug */,
+				8997943D1E973B4F00B2B99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8997943E1E973B4F00B2B99D /* Build configuration list for PBXNativeTarget "LLMapNaviToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8997943F1E973B4F00B2B99D /* Debug */,
+				899794401E973B4F00B2B99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 899794031E973B4F00B2B99D /* Project object */;
+}
